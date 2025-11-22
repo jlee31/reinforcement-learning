@@ -1,9 +1,13 @@
 # reinforcement-learning
 
+```
+
 reinforcement-learning/
 ├── README.md
-├── notebooks/          # All your .ipynb files go here
+├── notebooks/         
 ├── models/             # Saved model checkpoints
 ├── logs/               # Training logs and metrics
-├── configs/            # Configuration files (if needed)
+├── configs/            # Configuration files
 └── data/               # Training data, game recordings, etc.
+
+```
