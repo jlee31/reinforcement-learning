@@ -1,7 +1,15 @@
 # reinforcement-learning
 
-```
+experimenting with reinforcement learning and mixing with video games
 
+goals:
+[] learn deep reinforcement learning from some tutorials
+[] follow jperod ai reinforcement learning paper
+[] make my own game + add reinforcement learning bot
+
+folder structure:
+
+```
 reinforcement-learning/
 ├── README.md
 ├── notebooks/         
@@ -9,5 +17,4 @@ reinforcement-learning/
 ├── logs/               # Training logs and metrics
 ├── configs/            # Configuration files
 └── data/               # Training data, game recordings, etc.
-
 ```
