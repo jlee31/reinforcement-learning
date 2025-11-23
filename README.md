@@ -23,3 +23,8 @@ reinforcement-learning/
 
 ### how to run
 
+conda env create -f environment.yml
+conda activate mario-rl
+brew install sdl2 sdl2_image sdl2_mixer sdl2_ttf
+
+you might have to change the .yml to include a different version of pytorch if you are on windows. im on mac so i downloaded the non-cuda version
