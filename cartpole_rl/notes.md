@@ -1,11 +1,11 @@
 # reinforcement learning
 
-### links
+## links
 
 - https://gymnasium.farama.org/index.html (link to the documentation)
 - https://stable-baselines3.readthedocs.io/en/master/ (link to stablebaselines3 documentation)
 
-### thoery
+## thoery
 
 <img width="975" height="722" alt="image" src="https://github.com/user-attachments/assets/9efa8b97-2b49-4e49-a0a7-9d39d2c1c90a" />
 
@@ -31,7 +31,7 @@ Gymnasium is a library forked from OpenAI Gym - which is the code that acts for 
 
 StableBaselines 3 is a training algorithm for reinforcement learning
 
-### markov decision process
+## markov decision process
 - a way to model decision making in discrete time slices
 - you would consider every moment of time as some type of state
 - with computers, you would let states be continuous
@@ -46,7 +46,7 @@ StableBaselines 3 is a training algorithm for reinforcement learning
 - the agent would then be rewarded based on the type of action it does
 - obviously some models might want to always pick the option with the best reward, but ai also has the ability for delayed gratification
 
-### the bellman equation
+## the bellman equation
 
 <img width="1248" height="422" alt="image" src="https://github.com/user-attachments/assets/e0b7dc08-da52-437c-8947-5df3aaa6fbf4" />
 
@@ -60,7 +60,7 @@ StableBaselines 3 is a training algorithm for reinforcement learning
 
 <img width="1308" height="695" alt="image" src="https://github.com/user-attachments/assets/8302505a-6c73-4eae-b412-2268045d3f90" />
 
-# why is this important???
+## why is this important???
 
 - they form the basis of almost all reinforcement learning stuff
 - most rl agorithms main goal is to find a policy such that it maximizes v(s) or q(s, a)
@@ -68,8 +68,27 @@ StableBaselines 3 is a training algorithm for reinforcement learning
 
 <img width="641" height="621" alt="image" src="https://github.com/user-attachments/assets/3fb7681b-9d0a-4097-b829-a443fdf73642" />
 
-### exploitation vs exploration
+## exploitation vs exploration
+
+<img width="1289" height="654" alt="image" src="https://github.com/user-attachments/assets/13a329bc-d743-4a51-a6f3-c72313859b71" />
+
+- think of a restaurant, do you pick something you like the most, or pick something new in hopes to find a new favourite
+
+### reccomended textbook given from the video
+
+Reinforcement Learning An Introduction by Richard S. Suttin and Andrew G. Barto
+
+http://incompleteideas.net/ > Reinforcement Learning: An Introduction (textbook) > Full PDF
+
+^ It is a heavy read and takes a long time, but known as the Bible of RL
+
+# Model-based vs. model-free algorithms
 
 
-
+# On-policy vs. off-policy algorithms
+# Discrete vs. continuous action space
+# Discrete vs. continuous observation space
+# Overview of modern reinforcement learning algorithms
+# Q-learning
+# Deep Q-network (DQN)
 
