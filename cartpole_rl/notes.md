@@ -47,3 +47,29 @@ StableBaselines 3 is a training algorithm for reinforcement learning
 - obviously some models might want to always pick the option with the best reward, but ai also has the ability for delayed gratification
 
 ### the bellman equation
+
+<img width="1248" height="422" alt="image" src="https://github.com/user-attachments/assets/e0b7dc08-da52-437c-8947-5df3aaa6fbf4" />
+
+- the policy is function used to select an action given a particular state (denoted by the function above)
+- it could be random, a lookup table or even a neural network
+
+<img width="1290" height="683" alt="image" src="https://github.com/user-attachments/assets/47e3a77e-06b7-438d-a94e-3d145076a452" />
+
+- the equation above is recursive and known as the bellman equation for the state-value function
+- it can quickly become complicated
+
+<img width="1308" height="695" alt="image" src="https://github.com/user-attachments/assets/8302505a-6c73-4eae-b412-2268045d3f90" />
+
+# why is this important???
+
+- they form the basis of almost all reinforcement learning stuff
+- most rl agorithms main goal is to find a policy such that it maximizes v(s) or q(s, a)
+- with the policy that forms the maximized state/state action pair, you can make decisions to find the most valuable prediction at every state (making the most optimal move)
+
+<img width="641" height="621" alt="image" src="https://github.com/user-attachments/assets/3fb7681b-9d0a-4097-b829-a443fdf73642" />
+
+### exploitation vs exploration
+
+
+
+
