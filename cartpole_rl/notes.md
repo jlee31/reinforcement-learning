@@ -23,3 +23,7 @@ Gymnasium is a library forked from OpenAI Gym - which is the code that acts for 
 - it comes with envrionments like cartpole
 
 StableBaselines 3 is a training algorithm for reinforcement learning
+
+https://gymnasium.farama.org/index.html (link to the documentation)
+https://stable-baselines3.readthedocs.io/en/master/ (link to stablebaselines3 documentation)
+
