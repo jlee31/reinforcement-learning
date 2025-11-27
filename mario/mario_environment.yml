@@ -1,0 +1,16 @@
+name: super-mario-rl
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - matplotlib
+  - pytorch
+  - torchvision
+  - torchaudio
+  - numpy<2.0
+  - pip:
+      - gymnasium[classic-control]
+      - gym-super-mario-bros
+      - stable-baselines3[extra]
