@@ -1,5 +1,12 @@
 # reinforcement learning
 
+### links
+
+- https://gymnasium.farama.org/index.html (link to the documentation)
+- https://stable-baselines3.readthedocs.io/en/master/ (link to stablebaselines3 documentation)
+
+### thoery
+
 <img width="975" height="722" alt="image" src="https://github.com/user-attachments/assets/9efa8b97-2b49-4e49-a0a7-9d39d2c1c90a" />
 
 - this is similar to our bodies, our eyes -> brain -> actions -> hormones
@@ -24,6 +31,4 @@ Gymnasium is a library forked from OpenAI Gym - which is the code that acts for 
 
 StableBaselines 3 is a training algorithm for reinforcement learning
 
-https://gymnasium.farama.org/index.html (link to the documentation)
-https://stable-baselines3.readthedocs.io/en/master/ (link to stablebaselines3 documentation)
-
+### markov decision process
