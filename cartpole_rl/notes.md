@@ -32,3 +32,18 @@ Gymnasium is a library forked from OpenAI Gym - which is the code that acts for 
 StableBaselines 3 is a training algorithm for reinforcement learning
 
 ### markov decision process
+- a way to model decision making in discrete time slices
+- you would consider every moment of time as some type of state
+- with computers, you would let states be continuous
+
+<img width="967" height="688" alt="image" src="https://github.com/user-attachments/assets/1e29a2d6-91ac-4bcc-b31c-67bb107cb7ef" />
+
+- the yellow lines are actions , they are possible choices to the agent
+- the blue lines are the possible outcomes of an action
+- so the agent obsers the state, decides an action, the environment has some sort of transition and you can see the result, then the process repeats
+
+<img width="1094" height="679" alt="image" src="https://github.com/user-attachments/assets/eceafbdc-dff3-43e3-95fa-2004c5995504" />
+- the agent would then be rewarded based on the type of action it does
+- obviously some models might want to always pick the option with the best reward, but ai also has the ability for delayed gratification
+
+### the bellman equation
