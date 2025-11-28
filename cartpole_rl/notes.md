@@ -82,7 +82,12 @@ http://incompleteideas.net/ > Reinforcement Learning: An Introduction (textbook)
 
 ^ It is a heavy read and takes a long time, but known as the Bible of RL
 
-# Model-based vs. model-free algorithms
+# Model-based vs. Model-free algorithms
+
+Model-Based Algorithms:
+
+- 
+
 
 
 # On-policy vs. off-policy algorithms
