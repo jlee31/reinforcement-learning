@@ -86,14 +86,88 @@ http://incompleteideas.net/ > Reinforcement Learning: An Introduction (textbook)
 
 Model-Based Algorithms:
 
-- 
+- most early based algorithms were model based
+- they attempted to learn the transition dynamics and awards of the markov decision process, then they find the best policy
+- it was good, but didnt scale well
 
-
+Model-Free Algorithm:
+- you don't learn the dynamics or the rewards
+- instead agents performs actions, recieves awards and updates based on the rewards it gets
+- it is update policy by trial and error
+- most modern reinforcement algorithms are like this
 
 # On-policy vs. off-policy algorithms
+
+- it is mostly a way to classify how algorithms work
+- sometimes seen in literature
+
+On-policy
+
+- look at the next state and following the same policy
+
+Off-policy
+
+- if you use a different policy when estimating the return
+
+
 # Discrete vs. continuous action space
+
+Discrete:
+- action possibilities are discrete
+- set amount of steps
+  
+<img width="1125" height="385" alt="image" src="https://github.com/user-attachments/assets/bafccf3a-5dfc-4754-954b-f6de41c2dfd3" />
+
+
+Continuous:
+- you can specify fractional actions
+- unlimited number of possible steps
+
+<img width="1093" height="359" alt="image" src="https://github.com/user-attachments/assets/86c58fbd-0451-4180-b65a-aaa6c1a95960" />
+
 # Discrete vs. continuous observation space
+
+<img width="1135" height="690" alt="image" src="https://github.com/user-attachments/assets/a44c61e9-cd43-4ab5-a84a-f1d0fac49571" />
+
+- picking the right observations and rewards are so important
+- too many observation pixels / dimensions will make training a lot harder
+
 # Overview of modern reinforcement learning algorithms
+
+<img width="1260" height="666" alt="image" src="https://github.com/user-attachments/assets/c1516f99-fd8c-4fef-9f29-5902943dcb27" />
+
+- usually picking based on the action space and observation space is the most important
+- chatgpt is apparently really good at pixking the type reinforcement algorithm
+
 # Q-learning
+
+- you learn the q value of each state-action pair
+- you would do this with something like a q-table
+
+<img width="971" height="593" alt="image" src="https://github.com/user-attachments/assets/f5e5f64f-5e9d-411b-94fc-832d614af6ed" />
+
+- as you recieve rewards, you would change the table to show the estimates of the state action returns
+- it will eventually converge
+- at that point, it would have an understanding of each action at each state
+
+<img width="943" height="603" alt="image" src="https://github.com/user-attachments/assets/a6359c78-20b1-4f48-9b4d-81433f29d879" />
+- so at a certain state, you might choose to the greedy action or the exploration actions (this ties back to exploitation and exploration
+- this is only good for discrete action spaces
+- also you have to consider state, the more states, the more state-action pairs
+
 # Deep Q-network (DQN)
 
+- to solve those issues, DQN is a neural network that acts as a function approximator
+
+<img width="1070" height="663" alt="image" src="https://github.com/user-attachments/assets/20aa4310-2343-496d-b7ed-3265f704ecf1" />
+
+- eventually it should be able to predict the q-values
+
+### RL Terminology
+
+- model: indicate the environment dynamics
+- supervised learning: "model" = reinforcement learning: "function approximator"
+
+### usefulness of reinforcement learning
+
+- rl can be tough, and it still needs a lot of improvements
